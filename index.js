@@ -7,8 +7,6 @@ var cors = require('cors')
 const { authenticate } = require("./middleware/Authenticate.middleware")
 
 
-
-
 const app = express()
 app.use(express.json())
 app.use(cors())
